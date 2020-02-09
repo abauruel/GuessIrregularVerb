@@ -7,6 +7,7 @@ const IrregularVerbsSchema = new mongoose.Schema(
     pastParticiple: String
   },
   {
+    autoIndex: true,
     timestamps: true
   }
 );
